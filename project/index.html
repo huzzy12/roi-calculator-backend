@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI ROI Calculator</title>
+  </head>
+  <body>
+    <!-- Netlify Forms hidden form -->
+    <form name="roi-calculator" netlify hidden>
+      <input type="email" name="email" />
+      <input type="number" name="customerServiceHours" />
+      <input type="number" name="leadNurturingHours" />
+      <input type="number" name="hourlyWage" />
+      <input type="number" name="monthlyTimeSaved" />
+      <input type="number" name="annualCostSaved" />
+      <input type="number" name="productivityGain" />
+    </form>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
